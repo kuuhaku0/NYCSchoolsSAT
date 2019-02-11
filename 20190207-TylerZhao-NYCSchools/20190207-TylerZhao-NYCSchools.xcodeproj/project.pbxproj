@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2651138220FD93100C19281 /* NYCSchool.m in Sources */ = {isa = PBXBuildFile; fileRef = D2651137220FD93100C19281 /* NYCSchool.m */; };
+		D265113C220FEBB800C19281 /* BoroughViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D265113B220FEBB800C19281 /* BoroughViewModel.m */; };
+		D2651140220FF82800C19281 /* SchoolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D265113F220FF82800C19281 /* SchoolsViewController.m */; };
+		D2651145220FF8FB00C19281 /* SchoolsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2651144220FF8FB00C19281 /* SchoolsViewModel.m */; };
+		D265114822109AC600C19281 /* NYCSchoolsAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = D265114722109AC600C19281 /* NYCSchoolsAPIService.m */; };
+		D265114C22109CCE00C19281 /* SATScoreDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D265114B22109CCE00C19281 /* SATScoreDetailsViewController.m */; };
+		D265114F22109D6500C19281 /* SATScoreDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D265114E22109D6500C19281 /* SATScoreDetailViewModel.m */; };
+		D26511522211232E00C19281 /* SchoolSAT.m in Sources */ = {isa = PBXBuildFile; fileRef = D26511512211232E00C19281 /* SchoolSAT.m */; };
+		D26511542211D92A00C19281 /* SATScoreDetailsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26511532211D92A00C19281 /* SATScoreDetailsViewController.storyboard */; };
+		D2C8C0BA220D2E720061B77F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C8C0B9220D2E720061B77F /* AppDelegate.m */; };
+		D2C8C0BD220D2E720061B77F /* BoroughViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C8C0BC220D2E720061B77F /* BoroughViewController.m */; };
+		D2C8C0C0220D2E720061B77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C8C0BE220D2E720061B77F /* Main.storyboard */; };
+		D2C8C0C2220D2E730061B77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C8C0C1220D2E730061B77F /* Assets.xcassets */; };
+		D2C8C0C5220D2E730061B77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C8C0C3220D2E730061B77F /* LaunchScreen.storyboard */; };
+		D2C8C0C8220D2E730061B77F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C8C0C7220D2E730061B77F /* main.m */; };
+		D2C8C0D2220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C8C0D1220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2C8C0CE220D2E730061B77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C8C0AD220D2E720061B77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C8C0B4220D2E720061B77F;
+			remoteInfo = "20190207-TylerZhao-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2651136220FD93100C19281 /* NYCSchool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCSchool.h; sourceTree = "<group>"; };
+		D2651137220FD93100C19281 /* NYCSchool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCSchool.m; sourceTree = "<group>"; };
+		D265113A220FEBB800C19281 /* BoroughViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoroughViewModel.h; sourceTree = "<group>"; };
+		D265113B220FEBB800C19281 /* BoroughViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoroughViewModel.m; sourceTree = "<group>"; };
+		D265113E220FF82800C19281 /* SchoolsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolsViewController.h; sourceTree = "<group>"; };
+		D265113F220FF82800C19281 /* SchoolsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolsViewController.m; sourceTree = "<group>"; };
+		D2651143220FF8FB00C19281 /* SchoolsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolsViewModel.h; sourceTree = "<group>"; };
+		D2651144220FF8FB00C19281 /* SchoolsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolsViewModel.m; sourceTree = "<group>"; };
+		D265114622109AC600C19281 /* NYCSchoolsAPIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYCSchoolsAPIService.h; sourceTree = "<group>"; };
+		D265114722109AC600C19281 /* NYCSchoolsAPIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYCSchoolsAPIService.m; sourceTree = "<group>"; };
+		D265114A22109CCE00C19281 /* SATScoreDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SATScoreDetailsViewController.h; sourceTree = "<group>"; };
+		D265114B22109CCE00C19281 /* SATScoreDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SATScoreDetailsViewController.m; sourceTree = "<group>"; };
+		D265114D22109D6500C19281 /* SATScoreDetailViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SATScoreDetailViewModel.h; sourceTree = "<group>"; };
+		D265114E22109D6500C19281 /* SATScoreDetailViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SATScoreDetailViewModel.m; sourceTree = "<group>"; };
+		D26511502211232E00C19281 /* SchoolSAT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolSAT.h; sourceTree = "<group>"; };
+		D26511512211232E00C19281 /* SchoolSAT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolSAT.m; sourceTree = "<group>"; };
+		D26511532211D92A00C19281 /* SATScoreDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SATScoreDetailsViewController.storyboard; sourceTree = "<group>"; };
+		D2C8C0B5220D2E720061B77F /* 20190207-TylerZhao-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190207-TylerZhao-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C8C0B8220D2E720061B77F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2C8C0B9220D2E720061B77F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2C8C0BB220D2E720061B77F /* BoroughViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoroughViewController.h; sourceTree = "<group>"; };
+		D2C8C0BC220D2E720061B77F /* BoroughViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoroughViewController.m; sourceTree = "<group>"; };
+		D2C8C0BF220D2E720061B77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2C8C0C1220D2E730061B77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2C8C0C4220D2E730061B77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2C8C0C6220D2E730061B77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C8C0C7220D2E730061B77F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2C8C0CD220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190207-TylerZhao-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C8C0D1220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0190207_TylerZhao_NYCSchoolsTests.m; sourceTree = "<group>"; };
+		D2C8C0D3220D2E730061B77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2C8C0B2220D2E720061B77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C8C0CA220D2E730061B77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2651133220FD10A00C19281 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D26511562211D96000C19281 /* BoroSelection */,
+				D26511572211D96900C19281 /* SchoolsList */,
+				D26511552211D95200C19281 /* SATDetails */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D2651139220FD93900C19281 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2651136220FD93100C19281 /* NYCSchool.h */,
+				D2651137220FD93100C19281 /* NYCSchool.m */,
+				D26511502211232E00C19281 /* SchoolSAT.h */,
+				D26511512211232E00C19281 /* SchoolSAT.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D265113D220FEBC300C19281 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D265113A220FEBB800C19281 /* BoroughViewModel.h */,
+				D265113B220FEBB800C19281 /* BoroughViewModel.m */,
+				D2651143220FF8FB00C19281 /* SchoolsViewModel.h */,
+				D2651144220FF8FB00C19281 /* SchoolsViewModel.m */,
+				D265114D22109D6500C19281 /* SATScoreDetailViewModel.h */,
+				D265114E22109D6500C19281 /* SATScoreDetailViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D265114922109AD500C19281 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D265114622109AC600C19281 /* NYCSchoolsAPIService.h */,
+				D265114722109AC600C19281 /* NYCSchoolsAPIService.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D26511552211D95200C19281 /* SATDetails */ = {
+			isa = PBXGroup;
+			children = (
+				D26511532211D92A00C19281 /* SATScoreDetailsViewController.storyboard */,
+				D265114A22109CCE00C19281 /* SATScoreDetailsViewController.h */,
+				D265114B22109CCE00C19281 /* SATScoreDetailsViewController.m */,
+			);
+			path = SATDetails;
+			sourceTree = "<group>";
+		};
+		D26511562211D96000C19281 /* BoroSelection */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8C0BB220D2E720061B77F /* BoroughViewController.h */,
+				D2C8C0BC220D2E720061B77F /* BoroughViewController.m */,
+			);
+			path = BoroSelection;
+			sourceTree = "<group>";
+		};
+		D26511572211D96900C19281 /* SchoolsList */ = {
+			isa = PBXGroup;
+			children = (
+				D265113E220FF82800C19281 /* SchoolsViewController.h */,
+				D265113F220FF82800C19281 /* SchoolsViewController.m */,
+			);
+			path = SchoolsList;
+			sourceTree = "<group>";
+		};
+		D2C8C0AC220D2E720061B77F = {
+			isa = PBXGroup;
+			children = (
+				D2C8C0B7220D2E720061B77F /* 20190207-TylerZhao-NYCSchools */,
+				D2C8C0D0220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests */,
+				D2C8C0B6220D2E720061B77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2C8C0B6220D2E720061B77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8C0B5220D2E720061B77F /* 20190207-TylerZhao-NYCSchools.app */,
+				D2C8C0CD220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2C8C0B7220D2E720061B77F /* 20190207-TylerZhao-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8C0B8220D2E720061B77F /* AppDelegate.h */,
+				D2C8C0B9220D2E720061B77F /* AppDelegate.m */,
+				D265114922109AD500C19281 /* Network */,
+				D2651139220FD93900C19281 /* Model */,
+				D265113D220FEBC300C19281 /* ViewModel */,
+				D2651133220FD10A00C19281 /* Scene */,
+				D2C8C0BE220D2E720061B77F /* Main.storyboard */,
+				D2C8C0C1220D2E730061B77F /* Assets.xcassets */,
+				D2C8C0C3220D2E730061B77F /* LaunchScreen.storyboard */,
+				D2C8C0C6220D2E730061B77F /* Info.plist */,
+				D2C8C0C7220D2E730061B77F /* main.m */,
+			);
+			path = "20190207-TylerZhao-NYCSchools";
+			sourceTree = "<group>";
+		};
+		D2C8C0D0220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2C8C0D1220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m */,
+				D2C8C0D3220D2E730061B77F /* Info.plist */,
+			);
+			path = "20190207-TylerZhao-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2C8C0B4220D2E720061B77F /* 20190207-TylerZhao-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C8C0D6220D2E730061B77F /* Build configuration list for PBXNativeTarget "20190207-TylerZhao-NYCSchools" */;
+			buildPhases = (
+				D2C8C0B1220D2E720061B77F /* Sources */,
+				D2C8C0B2220D2E720061B77F /* Frameworks */,
+				D2C8C0B3220D2E720061B77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20190207-TylerZhao-NYCSchools";
+			productName = "20190207-TylerZhao-NYCSchools";
+			productReference = D2C8C0B5220D2E720061B77F /* 20190207-TylerZhao-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2C8C0CC220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C8C0D9220D2E730061B77F /* Build configuration list for PBXNativeTarget "20190207-TylerZhao-NYCSchoolsTests" */;
+			buildPhases = (
+				D2C8C0C9220D2E730061B77F /* Sources */,
+				D2C8C0CA220D2E730061B77F /* Frameworks */,
+				D2C8C0CB220D2E730061B77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C8C0CF220D2E730061B77F /* PBXTargetDependency */,
+			);
+			name = "20190207-TylerZhao-NYCSchoolsTests";
+			productName = "20190207-TylerZhao-NYCSchoolsTests";
+			productReference = D2C8C0CD220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2C8C0AD220D2E720061B77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tyler Zhao";
+				TargetAttributes = {
+					D2C8C0B4220D2E720061B77F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D2C8C0CC220D2E730061B77F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D2C8C0B4220D2E720061B77F;
+					};
+				};
+			};
+			buildConfigurationList = D2C8C0B0220D2E720061B77F /* Build configuration list for PBXProject "20190207-TylerZhao-NYCSchools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2C8C0AC220D2E720061B77F;
+			productRefGroup = D2C8C0B6220D2E720061B77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2C8C0B4220D2E720061B77F /* 20190207-TylerZhao-NYCSchools */,
+				D2C8C0CC220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2C8C0B3220D2E720061B77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26511542211D92A00C19281 /* SATScoreDetailsViewController.storyboard in Resources */,
+				D2C8C0C5220D2E730061B77F /* LaunchScreen.storyboard in Resources */,
+				D2C8C0C2220D2E730061B77F /* Assets.xcassets in Resources */,
+				D2C8C0C0220D2E720061B77F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C8C0CB220D2E730061B77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2C8C0B1220D2E720061B77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2651140220FF82800C19281 /* SchoolsViewController.m in Sources */,
+				D265114F22109D6500C19281 /* SATScoreDetailViewModel.m in Sources */,
+				D265114822109AC600C19281 /* NYCSchoolsAPIService.m in Sources */,
+				D2651138220FD93100C19281 /* NYCSchool.m in Sources */,
+				D2C8C0BD220D2E720061B77F /* BoroughViewController.m in Sources */,
+				D26511522211232E00C19281 /* SchoolSAT.m in Sources */,
+				D2C8C0C8220D2E730061B77F /* main.m in Sources */,
+				D2651145220FF8FB00C19281 /* SchoolsViewModel.m in Sources */,
+				D2C8C0BA220D2E720061B77F /* AppDelegate.m in Sources */,
+				D265114C22109CCE00C19281 /* SATScoreDetailsViewController.m in Sources */,
+				D265113C220FEBB800C19281 /* BoroughViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C8C0C9220D2E730061B77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C8C0D2220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2C8C0CF220D2E730061B77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C8C0B4220D2E720061B77F /* 20190207-TylerZhao-NYCSchools */;
+			targetProxy = D2C8C0CE220D2E730061B77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2C8C0BE220D2E720061B77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C8C0BF220D2E720061B77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2C8C0C3220D2E730061B77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C8C0C4220D2E730061B77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2C8C0D4220D2E730061B77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2C8C0D5220D2E730061B77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2C8C0D7220D2E730061B77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6582HS9KMD;
+				INFOPLIST_FILE = "20190207-TylerZhao-NYCSchools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UnlimitedCodeWorks.-0190207-TylerZhao-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2C8C0D8220D2E730061B77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6582HS9KMD;
+				INFOPLIST_FILE = "20190207-TylerZhao-NYCSchools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UnlimitedCodeWorks.-0190207-TylerZhao-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2C8C0DA220D2E730061B77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6582HS9KMD;
+				INFOPLIST_FILE = "20190207-TylerZhao-NYCSchoolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UnlimitedCodeWorks.-0190207-TylerZhao-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190207-TylerZhao-NYCSchools.app/20190207-TylerZhao-NYCSchools";
+			};
+			name = Debug;
+		};
+		D2C8C0DB220D2E730061B77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6582HS9KMD;
+				INFOPLIST_FILE = "20190207-TylerZhao-NYCSchoolsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UnlimitedCodeWorks.-0190207-TylerZhao-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20190207-TylerZhao-NYCSchools.app/20190207-TylerZhao-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2C8C0B0220D2E720061B77F /* Build configuration list for PBXProject "20190207-TylerZhao-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C8C0D4220D2E730061B77F /* Debug */,
+				D2C8C0D5220D2E730061B77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C8C0D6220D2E730061B77F /* Build configuration list for PBXNativeTarget "20190207-TylerZhao-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C8C0D7220D2E730061B77F /* Debug */,
+				D2C8C0D8220D2E730061B77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C8C0D9220D2E730061B77F /* Build configuration list for PBXNativeTarget "20190207-TylerZhao-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C8C0DA220D2E730061B77F /* Debug */,
+				D2C8C0DB220D2E730061B77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2C8C0AD220D2E720061B77F /* Project object */;
+}
