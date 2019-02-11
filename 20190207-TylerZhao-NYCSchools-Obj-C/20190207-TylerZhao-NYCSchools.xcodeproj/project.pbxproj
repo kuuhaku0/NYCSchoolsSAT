@@ -22,7 +22,6 @@
 		D2C8C0C2220D2E730061B77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C8C0C1220D2E730061B77F /* Assets.xcassets */; };
 		D2C8C0C5220D2E730061B77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C8C0C3220D2E730061B77F /* LaunchScreen.storyboard */; };
 		D2C8C0C8220D2E730061B77F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C8C0C7220D2E730061B77F /* main.m */; };
-		D2C8C0D2220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C8C0D1220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +63,6 @@
 		D2C8C0C6220D2E730061B77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C8C0C7220D2E730061B77F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2C8C0CD220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190207-TylerZhao-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C8C0D1220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0190207_TylerZhao_NYCSchoolsTests.m; sourceTree = "<group>"; };
-		D2C8C0D3220D2E730061B77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +158,6 @@
 			isa = PBXGroup;
 			children = (
 				D2C8C0B7220D2E720061B77F /* 20190207-TylerZhao-NYCSchools */,
-				D2C8C0D0220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests */,
 				D2C8C0B6220D2E720061B77F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -191,15 +187,6 @@
 				D2C8C0C7220D2E730061B77F /* main.m */,
 			);
 			path = "20190207-TylerZhao-NYCSchools";
-			sourceTree = "<group>";
-		};
-		D2C8C0D0220D2E730061B77F /* 20190207-TylerZhao-NYCSchoolsTests */ = {
-			isa = PBXGroup;
-			children = (
-				D2C8C0D1220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m */,
-				D2C8C0D3220D2E730061B77F /* Info.plist */,
-			);
-			path = "20190207-TylerZhao-NYCSchoolsTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C8C0D2220D2E730061B77F /* _0190207_TylerZhao_NYCSchoolsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
