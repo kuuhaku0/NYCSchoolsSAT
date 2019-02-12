@@ -33,4 +33,26 @@ class NYCSchoolsAPIService {
                                                completionHandler: completion,
                                                errorHandler: { print($0.localizedDescription) })
     }
+    
+    func getSATInfo(forSchool dbn: String, completionHandler: @escaping (SchoolSAT?) -> Void) {
+        let urlStr = "https://data.cityofnewyork.us/resource/734v-jeq5.json?dbn=\(dbn)"
+        guard let url = URL(string: urlStr) else {
+            print(AppError.badURL(rawURLStr: urlStr))
+            completionHandler(nil)
+            return
+        }
+        let request = URLRequest(url: url, cachePolicy: .returnCacheDataElseLoad, timeoutInterval: 30)
+        let completion = { (data: Data) -> Void in
+            do {
+                let schoolSATInfo = try JSONDecoder().decode([SchoolSAT].self, from: data)
+                completionHandler(schoolSATInfo.first)
+            }
+            catch {
+                completionHandler(nil)
+            }
+        }
+        NetworkManager.manager.performDataTask(with: request,
+                                               completionHandler: completion,
+                                               errorHandler: { print($0.localizedDescription) })
+    }
 }

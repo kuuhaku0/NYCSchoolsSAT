@@ -49,4 +49,13 @@ class SchoolListViewController: UITableViewController {
         cell.textLabel?.text = school?.school_name
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "SchoolSATDetailViewController", bundle: nil)
+        guard let schoolInfo = viewModel.schoolForRowAt(index: indexPath.row),
+            let vc = storyboard.instantiateViewController(withIdentifier: "SchoolSATDetailViewController") as? SchoolSATDetailViewController else { return }
+        let vm = SchoolSATDetailsViewModel(schoolDBN: schoolInfo.dbn, schoolDetails: schoolInfo)
+        vc.viewModel = vm
+        navigationController?.pushViewController(vc, animated: true)
+    }
 }
