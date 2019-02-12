@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D2CD8D5F221234F5003B9CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D5E221234F5003B9CC4 /* AppDelegate.swift */; };
-		D2CD8D61221234F5003B9CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D60221234F5003B9CC4 /* ViewController.swift */; };
+		D2CD8D61221234F5003B9CC4 /* BoroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D60221234F5003B9CC4 /* BoroViewController.swift */; };
 		D2CD8D64221234F5003B9CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CD8D62221234F5003B9CC4 /* Main.storyboard */; };
 		D2CD8D66221234F5003B9CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2CD8D65221234F5003B9CC4 /* Assets.xcassets */; };
 		D2CD8D69221234F5003B9CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CD8D67221234F5003B9CC4 /* LaunchScreen.storyboard */; };
-		D2CD8D74221234F5003B9CC4 /* _0190211_TylerZhao_NYCSchools_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D73221234F5003B9CC4 /* _0190211_TylerZhao_NYCSchools_SwiftTests.swift */; };
+		D2CD8D74221234F5003B9CC4 /* SchoolListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D73221234F5003B9CC4 /* SchoolListViewControllerTest.swift */; };
+		D2CD8D802212357C003B9CC4 /* NYCSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D7F2212357C003B9CC4 /* NYCSchool.swift */; };
+		D2CD8D8222123585003B9CC4 /* SchoolSAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D8122123585003B9CC4 /* SchoolSAT.swift */; };
+		D2CD8D852212364A003B9CC4 /* BoroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D842212364A003B9CC4 /* BoroViewModel.swift */; };
+		D2CD8D8B22123CB7003B9CC4 /* SchoolListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D8A22123CB7003B9CC4 /* SchoolListViewController.swift */; };
+		D2CD8D8D22123CD0003B9CC4 /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D8C22123CD0003B9CC4 /* SchoolListViewModel.swift */; };
+		D2CD8D8F22123FC6003B9CC4 /* NYCSchoolsAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D8E22123FC6003B9CC4 /* NYCSchoolsAPIService.swift */; };
+		D2CD8D92221240DF003B9CC4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D91221240DF003B9CC4 /* NetworkManager.swift */; };
+		D2CD8D9422124F42003B9CC4 /* SchoolSATDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD8D9322124F42003B9CC4 /* SchoolSATDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +36,22 @@
 /* Begin PBXFileReference section */
 		D2CD8D5B221234F5003B9CC4 /* 20190211-TylerZhao-NYCSchools-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20190211-TylerZhao-NYCSchools-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CD8D5E221234F5003B9CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2CD8D60221234F5003B9CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2CD8D60221234F5003B9CC4 /* BoroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoroViewController.swift; sourceTree = "<group>"; };
 		D2CD8D63221234F5003B9CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2CD8D65221234F5003B9CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2CD8D68221234F5003B9CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2CD8D6A221234F5003B9CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2CD8D6F221234F5003B9CC4 /* 20190211-TylerZhao-NYCSchools-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20190211-TylerZhao-NYCSchools-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2CD8D73221234F5003B9CC4 /* _0190211_TylerZhao_NYCSchools_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0190211_TylerZhao_NYCSchools_SwiftTests.swift; sourceTree = "<group>"; };
+		D2CD8D73221234F5003B9CC4 /* SchoolListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewControllerTest.swift; sourceTree = "<group>"; };
 		D2CD8D75221234F5003B9CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2CD8D7F2212357C003B9CC4 /* NYCSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchool.swift; sourceTree = "<group>"; };
+		D2CD8D8122123585003B9CC4 /* SchoolSAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSAT.swift; sourceTree = "<group>"; };
+		D2CD8D842212364A003B9CC4 /* BoroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoroViewModel.swift; sourceTree = "<group>"; };
+		D2CD8D8A22123CB7003B9CC4 /* SchoolListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewController.swift; sourceTree = "<group>"; };
+		D2CD8D8C22123CD0003B9CC4 /* SchoolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		D2CD8D8E22123FC6003B9CC4 /* NYCSchoolsAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYCSchoolsAPIService.swift; sourceTree = "<group>"; };
+		D2CD8D91221240DF003B9CC4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D2CD8D9322124F42003B9CC4 /* SchoolSATDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSATDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				D2CD8D5D221234F5003B9CC4 /* 20190211-TylerZhao-NYCSchools-Swift */,
+				D2CD8D6A221234F5003B9CC4 /* Info.plist */,
 				D2CD8D72221234F5003B9CC4 /* 20190211-TylerZhao-NYCSchools-SwiftTests */,
 				D2CD8D5C221234F5003B9CC4 /* Products */,
 			);
@@ -78,11 +95,11 @@
 			isa = PBXGroup;
 			children = (
 				D2CD8D5E221234F5003B9CC4 /* AppDelegate.swift */,
-				D2CD8D60221234F5003B9CC4 /* ViewController.swift */,
-				D2CD8D62221234F5003B9CC4 /* Main.storyboard */,
-				D2CD8D65221234F5003B9CC4 /* Assets.xcassets */,
-				D2CD8D67221234F5003B9CC4 /* LaunchScreen.storyboard */,
-				D2CD8D6A221234F5003B9CC4 /* Info.plist */,
+				D2CD8D9022123FCC003B9CC4 /* Network */,
+				D2CD8D832212358A003B9CC4 /* Model */,
+				D2CD8D8622123653003B9CC4 /* ViewModel */,
+				D2CD8D8722123661003B9CC4 /* Scene */,
+				D2CD8D7E22123562003B9CC4 /* Supporting */,
 			);
 			path = "20190211-TylerZhao-NYCSchools-Swift";
 			sourceTree = "<group>";
@@ -90,10 +107,57 @@
 		D2CD8D72221234F5003B9CC4 /* 20190211-TylerZhao-NYCSchools-SwiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				D2CD8D73221234F5003B9CC4 /* _0190211_TylerZhao_NYCSchools_SwiftTests.swift */,
+				D2CD8D73221234F5003B9CC4 /* SchoolListViewControllerTest.swift */,
 				D2CD8D75221234F5003B9CC4 /* Info.plist */,
 			);
 			path = "20190211-TylerZhao-NYCSchools-SwiftTests";
+			sourceTree = "<group>";
+		};
+		D2CD8D7E22123562003B9CC4 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD8D62221234F5003B9CC4 /* Main.storyboard */,
+				D2CD8D65221234F5003B9CC4 /* Assets.xcassets */,
+				D2CD8D67221234F5003B9CC4 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		D2CD8D832212358A003B9CC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD8D7F2212357C003B9CC4 /* NYCSchool.swift */,
+				D2CD8D8122123585003B9CC4 /* SchoolSAT.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D2CD8D8622123653003B9CC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD8D842212364A003B9CC4 /* BoroViewModel.swift */,
+				D2CD8D8C22123CD0003B9CC4 /* SchoolListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D2CD8D8722123661003B9CC4 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD8D60221234F5003B9CC4 /* BoroViewController.swift */,
+				D2CD8D8A22123CB7003B9CC4 /* SchoolListViewController.swift */,
+				D2CD8D9322124F42003B9CC4 /* SchoolSATDetailViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D2CD8D9022123FCC003B9CC4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D2CD8D91221240DF003B9CC4 /* NetworkManager.swift */,
+				D2CD8D8E22123FC6003B9CC4 /* NYCSchoolsAPIService.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +261,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2CD8D61221234F5003B9CC4 /* ViewController.swift in Sources */,
+				D2CD8D92221240DF003B9CC4 /* NetworkManager.swift in Sources */,
+				D2CD8D61221234F5003B9CC4 /* BoroViewController.swift in Sources */,
+				D2CD8D802212357C003B9CC4 /* NYCSchool.swift in Sources */,
+				D2CD8D8D22123CD0003B9CC4 /* SchoolListViewModel.swift in Sources */,
+				D2CD8D852212364A003B9CC4 /* BoroViewModel.swift in Sources */,
+				D2CD8D8222123585003B9CC4 /* SchoolSAT.swift in Sources */,
+				D2CD8D9422124F42003B9CC4 /* SchoolSATDetailViewController.swift in Sources */,
+				D2CD8D8F22123FC6003B9CC4 /* NYCSchoolsAPIService.swift in Sources */,
+				D2CD8D8B22123CB7003B9CC4 /* SchoolListViewController.swift in Sources */,
 				D2CD8D5F221234F5003B9CC4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2CD8D74221234F5003B9CC4 /* _0190211_TylerZhao_NYCSchools_SwiftTests.swift in Sources */,
+				D2CD8D74221234F5003B9CC4 /* SchoolListViewControllerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6582HS9KMD;
-				INFOPLIST_FILE = "20190211-TylerZhao-NYCSchools-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6582HS9KMD;
-				INFOPLIST_FILE = "20190211-TylerZhao-NYCSchools-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
